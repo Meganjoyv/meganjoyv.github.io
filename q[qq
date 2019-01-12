@@ -1,0 +1,237 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 93e0333..0beb9c2 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,6 +1,6 @@[m
+ <!DOCTYPE html>[m
+ <html lang="en">[m
+[31m-	<head><script src="/gdpr/gdprscript.js?buildTime=1234&hasRemindMe=true&stealth=false"></script>[m
+[32m+[m	[32m<head>[m
+ 		<title>MEGAN JOY VOLLSTEDT - Home</title>[m
+ [m
+ [m
+[36m@@ -11,7 +11,7 @@[m
+ 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />[m
+ <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />[m
+ <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />[m
+[31m-<link rel="stylesheet" type="text/css" href="files/main_style.css?1541456462" title="wsite-theme-css" />[m
+[32m+[m[32m<link rel="stylesheet" type="text/css" href="files/main_style.css?1547240362" title="wsite-theme-css" />[m
+ <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />[m
+ <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />[m
+ [m
+[36m@@ -99,7 +99,7 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ 	[m
+ 	function initFlyouts(){[m
+ 		initPublishedFlyoutMenus([m
+[31m-			[{"id":"774796441723391813","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"294357209881533171","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"337532594107193912","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],[m
+[32m+[m			[32m[{"id":"774796441723391813","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"196085108468200746","title":"Portfolio","url":"portfolio.html","target":"","nav_menu":false,"nonclickable":false},{"id":"294357209881533171","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"337532594107193912","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false}],[m
+ 			"774796441723391813",[m
+ 			'',[m
+ 			'active',[m
+[36m@@ -138,6 +138,15 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ 				Home[m
+ 			</a>[m
+ 			[m
+[32m+[m		[32m</li>[m
+[32m+[m		[32m<li id="pg196085108468200746" class="wsite-menu-item-wrap">[m
+[32m+[m			[32m<a[m
+[32m+[m						[32mhref="portfolio.html"[m
+[32m+[m				[32mclass="wsite-menu-item"[m
+[32m+[m				[32m>[m
+[32m+[m				[32mPortfolio[m
+[32m+[m			[32m</a>[m
+[32m+[m[41m			[m
+ 		</li>[m
+ 		<li id="pg294357209881533171" class="wsite-menu-item-wrap">[m
+ 			<a[m
+[36m@@ -178,32 +187,32 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ 					[m
+ 						[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/edited/img-7744.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7744.jpg?1540847944" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/edited/img-7744.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7744.jpg?1540847944" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/edited/img-7748.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7748.jpg?1540848186" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/edited/img-7748.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7748.jpg?1540848186" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">[m
+[31m-<a>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7740.jpg?1540848273" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">[m[41m[m
+[32m+[m[32m<a>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7740.jpg?1540848273" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">[m
+[31m-<a>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7749.jpg?1540849242" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">[m[41m[m
+[32m+[m[32m<a>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7749.jpg?1540849242" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+ [m
+[36m@@ -212,25 +221,25 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ 					[m
+ 						[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/img-1495_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/img-1495_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/img-1495_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/img-1495_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/edited/img-7750.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/editor/img-7750.jpg?1540848045" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/edited/img-7750.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/editor/img-7750.jpg?1540848045" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/edited/img-7752.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7752.jpg?1540848089" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/edited/img-7752.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7752.jpg?1540848089" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+ [m
+[36m@@ -239,32 +248,32 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ 					[m
+ 						[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/edited/img-7745.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7745.jpg?1540849301" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/edited/img-7745.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7745.jpg?1540849301" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/img-1426_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/img-1426_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/img-1426_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/img-1426_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m
+[31m-<a href='uploads/1/2/2/6/122660766/edited/img-1494_1.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-1494_1.jpg?1540848330" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">[m[41m[m
+[32m+[m[32m<a href='uploads/1/2/2/6/122660766/edited/img-1494_1.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-1494_1.jpg?1540848330" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+[31m-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">[m
+[31m-<a>[m
+[31m-<img src="uploads/1/2/2/6/122660766/published/img-7741.jpg?1540848376" alt="Picture" style="width:auto;max-width:100%" />[m
+[31m-</a>[m
+[31m-<div style="display:block;font-size:90%"></div>[m
+[32m+[m[32m<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">[m[41m[m
+[32m+[m[32m<a>[m[41m[m
+[32m+[m[32m<img src="uploads/1/2/2/6/122660766/published/img-7741.jpg?1540848376" alt="Picture" style="width:auto;max-width:100%" />[m[41m[m
+[32m+[m[32m</a>[m[41m[m
+[32m+[m[32m<div style="display:block;font-size:90%"></div>[m[41m[m
+ </div></div>[m
+ [m
+ [m
+[36m@@ -280,14 +289,14 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ [m
+ <div class="paragraph">Octagon Center for the Arts, Community of Artists Gallery, June-July 2017, multimedia poetry<br />Midwest Writing Center, Iron Pen Writing Contest, February 2016, poetry<br />Midwest Writing Center, Writer&rsquo;s Block E&#8208;Magazine Issue 2015, poetry<br />Biblio, Books for Life, July 2015, blog<br />GoodReads, Poetry Contest, February 2015, poetry<br /></div>[m
+ [m
+[31m-<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>[m
+[31m-<hr class="styled-hr" style="width:100%;"></hr>[m
+[32m+[m[32m<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>[m[41m[m
+[32m+[m[32m<hr class="styled-hr" style="width:100%;"></hr>[m[41m[m
+ <div style="height: 20px; overflow: hidden; width: 100%;"></div></div>[m
+ [m
+ <div class="wsite-spacer" style="height:50px;"></div>[m
+ [m
+[31m-<div style="text-align:center;"><div style="height:10px;overflow:hidden"></div>[m
+[31m-<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='http://facebook.com/mjv.vollstedt' target='_blank' alt-text='Facebook'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-instagram' href='http://instagram.com/meganjoyv' target='_blank' alt-text='Instagram'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-linkedin' href='http://linkedin.com/in/meganvollstedt' target='_blank' alt-text='Linkedin'><span class='wsite-social-item-inner'></span></a></span>[m
+[32m+[m[32m<div style="text-align:center;"><div style="height:10px;overflow:hidden"></div>[m[41m[m
+[32m+[m[32m<span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='http://facebook.com/mjv.vollstedt' target='_blank' alt-text='Facebook'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-instagram' href='http://instagram.com/meganjoyv' target='_blank' alt-text='Instagram'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-linkedin' href='http://linkedin.com/in/meganvollstedt' target='_blank' alt-text='Linkedin'><span class='wsite-social-item-inner'></span></a></span>[m[41m[m
+ <div style="height:10px;overflow:hidden"></div></div>[m
+ 			</div>[m
+ 		</div>[m
+[36m@@ -302,7 +311,7 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ [m
+     <div class="footer-wrap">[m
+       <div class="container">[m
+[31m-            <div class="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="sitio web gratuito">Weebly</a></div>[m
+[32m+[m[32m            <div class="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>[m
+       </div><!-- end container -->[m
+     </div><!-- end footer-wrap -->[m
+   </div>[m
+[36m@@ -316,6 +325,15 @@[m [m_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":[m
+ 				Home[m
+ 			</a>[m
+ 			[m
+[32m+[m		[32m</li>[m
+[32m+[m		[32m<li id="pg196085108468200746" class="wsite-menu-item-wrap">[m
+[32m+[m			[32m<a[m
+[32m+[m						[32mhref="portfolio.html"[m
+[32m+[m				[32mclass="wsite-menu-item"[m
+[32m+[m				[32m>[m
+[32m+[m				[32mPortfolio[m
+[32m+[m			[32m</a>[m
+[32m+[m[41m			[m
+ 		</li>[m
+ 		<li id="pg294357209881533171" class="wsite-menu-item-wrap">[m
+ 			<a[m
