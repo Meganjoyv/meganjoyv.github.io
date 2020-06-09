@@ -124,7 +124,8 @@ jQuery(function($) {
       var base = this;
 
         // Nav toggle
-        $('label.hamburger').on('click', function() {
+        $('.hamburger').on('click', function(e) {
+          e.preventDefault();
             if(!$('body').hasClass('nav-open')) {
                 $('body').addClass('nav-open');
             } else {
